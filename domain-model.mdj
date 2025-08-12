@@ -322,7 +322,7 @@
 											"top": 345,
 											"width": 234.4033203125,
 											"height": 13,
-											"text": "-loyaltPoints: Integer",
+											"text": "-loyaltyPoints: Integer",
 											"horizontalAlignment": 0
 										}
 									],
@@ -3787,7 +3787,7 @@
 							},
 							"name": "id",
 							"visibility": "private",
-							"type": "UUID"
+							"type": "CustomerId"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3797,7 +3797,7 @@
 							},
 							"name": "fullName",
 							"visibility": "private",
-							"type": "String"
+							"type": "FullName"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3807,7 +3807,7 @@
 							},
 							"name": "birthDate",
 							"visibility": "private",
-							"type": "LocalDate"
+							"type": "BirthDate"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3817,7 +3817,7 @@
 							},
 							"name": "email",
 							"visibility": "private",
-							"type": "String"
+							"type": "Email"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3827,7 +3827,7 @@
 							},
 							"name": "document",
 							"visibility": "private",
-							"type": "String"
+							"type": "Document"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3837,7 +3837,7 @@
 							},
 							"name": "phone",
 							"visibility": "private",
-							"type": "String"
+							"type": "Phone"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -3887,7 +3887,7 @@
 							},
 							"name": "loyaltyPoints",
 							"visibility": "private",
-							"type": "Integer"
+							"type": "LoyaltyPoints"
 						}
 					],
 					"operations": [
@@ -3975,8 +3975,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGYkJ3xR4ucUXo="
 									},
-									"name": "String",
-									"type": ""
+									"name": "FullName"
 								}
 							]
 						},
@@ -3994,8 +3993,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGYkJ4Fc4ujsIg="
 									},
-									"name": "String",
-									"type": ""
+									"name": "Email"
 								}
 							]
 						},
@@ -4013,8 +4011,7 @@
 									"_parent": {
 										"$ref": "AAAAAAGYkJ5RxYuxGy4="
 									},
-									"name": "String",
-									"type": ""
+									"name": "Phone"
 								}
 							]
 						}
@@ -4465,7 +4462,7 @@
 											"top": 251,
 											"width": 263,
 											"height": 13,
-											"text": "-id: UUID",
+											"text": "-id: CustomerId",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4483,7 +4480,7 @@
 											"top": 266,
 											"width": 263,
 											"height": 13,
-											"text": "-fullName: String",
+											"text": "-fullName: FullName",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4501,7 +4498,7 @@
 											"top": 281,
 											"width": 263,
 											"height": 13,
-											"text": "-birthDate: LocalDate",
+											"text": "-birthDate: BirthDate",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4519,7 +4516,7 @@
 											"top": 296,
 											"width": 263,
 											"height": 13,
-											"text": "-email: String",
+											"text": "-email: Email",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4537,7 +4534,7 @@
 											"top": 311,
 											"width": 263,
 											"height": 13,
-											"text": "-document: String",
+											"text": "-document: Document",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4555,7 +4552,7 @@
 											"top": 326,
 											"width": 263,
 											"height": 13,
-											"text": "-phone: String",
+											"text": "-phone: Phone",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4645,7 +4642,7 @@
 											"top": 401,
 											"width": 263,
 											"height": 13,
-											"text": "-loyaltyPoints: Integer",
+											"text": "-loyaltyPoints: LoyaltyPoints",
 											"horizontalAlignment": 0
 										}
 									],
@@ -4791,7 +4788,7 @@
 											"top": 486,
 											"width": 263,
 											"height": 13,
-											"text": "+changeName(String)",
+											"text": "+changeName(FullName)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4809,7 +4806,7 @@
 											"top": 501,
 											"width": 263,
 											"height": 13,
-											"text": "+changeEmail(String)",
+											"text": "+changeEmail(Email)",
 											"horizontalAlignment": 0
 										},
 										{
@@ -4827,7 +4824,7 @@
 											"top": 516,
 											"width": 263,
 											"height": 13,
-											"text": "+changePhone(String)",
+											"text": "+changePhone(Phone)",
 											"horizontalAlignment": 0
 										}
 									],
